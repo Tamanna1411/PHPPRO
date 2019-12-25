@@ -1,0 +1,89 @@
+#h2
+{
+color: Black;
+font-style:italic;
+font-size:60px;
+}
+.center
+{ 
+  max-width:50%;
+	margin: 0 auto; 
+
+}
+
+.flex-container
+{
+  flex-wrap: wrap;
+	display: flex;
+  margin-left: 35%;
+}
+#reg
+{
+  width:100%;
+}
+#button
+{
+	background-color:green;
+	font-style:bold;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    font-size: 10px;
+    margin: 2px 2px;
+    cursor: pointer;
+	
+  
+}
+.row
+{
+   width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: flex;
+}
+#field
+{
+	width:300px;
+	border-Color:Black:
+}
+#h3
+{
+color: Black;
+font-size:20px;
+font-style:bold;
+}
+#back
+{
+background-color: lightBlue;
+}
+#log
+{
+color: Black;
+font-style:italic;
+font-size:40px;
+}
+#post
+{
+	color:Black;
+	font-size:30px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #000000;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: white;
+}
+#field2
+{
+	width:600px;
+	border-Color:Black:
+}

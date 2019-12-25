@@ -1,0 +1,25 @@
+create database blog;
+
+
+
+
+create table userlist(
+ID int(6) unsigned AUTO_INCREMENT PRIMARY KEY,
+UserName varchar(50),
+Password varchar(50),
+Email varchar(50),
+fullName varchar(50),
+PhoneNo varchar(50),
+IsAdmin boolean
+);
+
+
+create table postl(
+ID int(6) unsigned AUTO_INCREMENT PRIMARY KEY,
+Title varchar(50),
+Description varchar(50),
+Date date,
+AAuther_user_id int(6),
+IsApproved boolean,
+FOREIGN key (ID)REFERENCES userlist(ID)
+);
